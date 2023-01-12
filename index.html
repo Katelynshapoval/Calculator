@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="icon.png">
+    </head>
+    <body>
+        <div id="main">
+            <div id="calc">
+                <div id="input_output"><p id="text"></p></div>
+                <div id="box_num">
+                    <button onclick="New('AC')" class="num lightgrey">AC</button>
+                    <button onclick="New('negative')" class="num lightgrey">+/-</button>
+                    <button onclick="New('percent')" class="num lightgrey">%</button>
+                    <button onclick="New('divide')" class="num orange">÷</button>
+                    <button onclick="New(7)" class="num darkgrey">7</button>
+                    <button onclick="New(8)" class="num darkgrey">8</button>
+                    <button onclick="New(9)" class="num darkgrey">9</button>
+                    <button onclick="New('multiply')" class="num orange">×</button>
+                    <button onclick="New(4)" class="num darkgrey">4</button>
+                    <button onclick="New(5)" class="num darkgrey">5</button>
+                    <button onclick="New(6)" class="num darkgrey">6</button>
+                    <button onclick="New('subtract')" class="num orange">-</button>
+                    <button onclick="New(1)" class="num darkgrey">1</button>
+                    <button onclick="New(2)" class="num darkgrey">2</button>
+                    <button onclick="New(3)" class="num darkgrey">3</button>
+                    <button onclick="New('add')" class="num orange">+</button>
+                    <button onclick="New(0)" class="num darkgrey morewidth">0</button>
+                    <button onclick="New('dot')" class="num darkgrey">.</button>
+                    <button onclick="New('solve')" class="num orange">=</button>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="calculator_func.js"></script>
+    </body>
+</html>
